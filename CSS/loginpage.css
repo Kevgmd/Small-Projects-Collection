@@ -1,0 +1,62 @@
+    * {
+        margin: 0;
+        outline: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(rgb(0, 195, 255), rgb(59, 56, 255));
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .back {
+        background-color: white;
+        padding: 50px 80px;
+        border-radius: 5%;
+    }
+
+    .button-forgot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    button {
+        height: 3rem;
+        width: 10rem;
+        border-radius: 50px;
+        border: 0;
+        background-color: rgb(255, 0, 106);
+        color: white;
+        cursor: pointer;
+    }
+
+    a {
+        display: flex;
+        color: gray;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    #password {
+        display: flex;
+        margin-bottom: 5px;
+        height: 2rem;
+        width: 15rem;
+    }
+
+    #email {
+        display: flex;
+        margin-bottom: 10px;
+        height: 2rem;
+        width: 15rem;
+    }
