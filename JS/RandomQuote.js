@@ -4,7 +4,11 @@ const quotes = [
     '"As coisa cai" <br> - Isaque Nilton',
     '"Casa vazia é oficina da punheta" <br> - Mario Ayala',
     '"Underidoderidudoridoderidoo" <br> - Winston Churchill',
-    '"Se o Tadala tá caro, empurra mole mesmo" <br> - Martin Luther King Jr.'
+    '"Se o Tadala tá caro, empurra mole mesmo" <br> - Martin Luther King Jr.',
+    '"puta que pariu" <br> - Senhor Cinema',
+    '"Eu sabo" <br> - Nikola Tesla',
+    '"tá caro as coisa" <br> - Karl Marx',
+    '"Com Estilingue até merda voa porra" <br> - Santos Dumont'
 ];
 
 const backgrounds = {
@@ -14,6 +18,10 @@ const backgrounds = {
     [quotes[3]]: 'url(https://img.observatoriodatv.com.br/wp-content/uploads/2022/05/Mario-Ayala-Gustavo-Daneluz-em-Carrossel-1024x768.jpg)',
     [quotes[4]]: 'url(https://media.gazetadopovo.com.br/2025/05/31143751/churchill-1941-660x372.jpg.webp)',
     [quotes[5]]: 'url(https://static.todamateria.com.br/upload/ma/rt/martinlutherking-cke.jpg)',
+    [quotes[6]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XMvzzVDcGFz4xyDGjOA1F2W0NHWksBTiJLPfiq7bVF7HObyu)',
+    [quotes[7]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2BqQGwMwkac26Lky1wkNTUFfnY7JLka5EQ&s)',
+    [quotes[8]]: 'url(https://static.todamateria.com.br/upload/ka/rl/karl-marx-og.jpg?class=ogImageWide)',
+    [quotes[9]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpawaNF88fCOc8EQqLR_RChTnvAVi3l0D_QA&s)',
 };
 
 let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
