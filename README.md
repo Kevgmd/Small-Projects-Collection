@@ -1,2 +1,7 @@
-# Small-Projects-Collection
-A Collection of small projects and experiments.
+# Small-Projects-Collection ✨
+> Here's a collection of small projects and experiments that aren't big enough to have a repo just for them, but some are bigger than others actually.
+
+## Current projects list 📋
+- Login Page
+- Click Counter
+- Random Quote Generator
