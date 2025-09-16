@@ -1,8 +1,3 @@
-# Small-Projects-Collection ✨
-> Here's a collection of really small projects and experiments that aren't big enough to have a repo just for them, but some are bigger than others actually.
-
-## Current projects list 📋
-- Login Page
-- Click Counter
-- Random Quote Generator <br>
-### More Coming Soon!
+# Small-Projects-Collection (funny quotes branch)🤡
+> This branch only has a meme version of the Random quote generator as an inside joke, which i dont recommend for anyone to see. (like seriously...) <br>
+> Actually English speakers wont understand a thing because most of the quotes are in Brazilian Portuguese.
