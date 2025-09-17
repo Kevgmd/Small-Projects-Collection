@@ -4,11 +4,16 @@ const quotes = [
     '"As coisa cai" <br> - Isaque Nilton',
     '"Casa vazia é oficina da punheta" <br> - Mario Ayala',
     '"Underidoderidudoridoderidoo" <br> - Winston Churchill',
-    '"Se o Tadala tá caro, empurra mole mesmo" <br> - Martin Luther King Jr.',
+    '"Se o Tadala tá caro, empurra mole mesmo" <br> - Martin Burguer King Jr.',
     '"puta que pariu" <br> - Senhor Cinema',
     '"Eu sabo" <br> - Nikola Tesla',
     '"tá caro as coisa" <br> - Karl Marx',
-    '"Com Estilingue até merda voa porra" <br> - Santos Dumont'
+    '"Com Estilingue até merda voa porra" <br> - Santos Dumont',
+    '"I Cant breathe" <br> - George Floyd',
+    '"Oda Gênio" <br> - Senhor Cinema',
+    '"O Brasileiro tem que ser estrupado pela nasa" <br> - Bart Simpsom',
+    '"Pra ser meu braço direito tem que bater pra mim" <br> - Poderoso Chefão',
+    '"Tem que ver com os cara lá..." <br> - Nelson Mandela',
 ];
 
 const backgrounds = {
@@ -22,6 +27,11 @@ const backgrounds = {
     [quotes[7]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2BqQGwMwkac26Lky1wkNTUFfnY7JLka5EQ&s)',
     [quotes[8]]: 'url(https://static.todamateria.com.br/upload/ka/rl/karl-marx-og.jpg?class=ogImageWide)',
     [quotes[9]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpawaNF88fCOc8EQqLR_RChTnvAVi3l0D_QA&s)',
+    [quotes[10]]: 'url(https://e3.365dm.com/20/05/2048x1152/skynews-george-floyd-killed-by-police_5001291.jpg)',
+    [quotes[11]]: 'url(https://f.i.uol.com.br/fotografia/2023/10/09/169688153965245b838d9bb_1696881539_3x2_rt.jpg)',
+    [quotes[12]]: 'url(https://pbs.twimg.com/media/GtRqpIjX0AAFDrt.jpg)',
+    [quotes[13]]: 'url(https://cdn.britannica.com/55/188355-050-D5E49258/Salvatore-Corsitto-The-Godfather-Marlon-Brando-Francis.jpg)',
+    [quotes[14]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZnJmUkD2xLcPMLRmkgF6WBhd36KXyLij0Q&s)',
 };
 
 let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];

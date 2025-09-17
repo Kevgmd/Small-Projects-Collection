@@ -35,6 +35,10 @@ button:hover {
     background: linear-gradient(90deg, #274060 0%, #1e374d 100%);
 }
 
+button:active {
+    background: linear-gradient(90deg, #274060 0%, #1e374d 100%);
+}
+
 #quoteContainer {
     color: white;
     font-family: "Courier New", Courier, monospace;
@@ -49,4 +53,21 @@ button:hover {
 #buttonContainer {
     display: flex;
     margin: 100px 0 75px 0;
+}
+
+@media (max-width: 768px) {
+    #quoteContainer {
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+            1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+        background-color: hsla(0, 0%, 100%, 0.250);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: medium;
+    }
 }
