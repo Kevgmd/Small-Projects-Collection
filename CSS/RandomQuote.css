@@ -70,4 +70,9 @@ button:active {
     h1 {
         font-size: medium;
     }
+
+    #buttonContainer {
+        display: flex;
+        margin: 50px 0 250px 0;
+    }
 }

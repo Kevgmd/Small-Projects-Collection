@@ -14,6 +14,7 @@ const quotes = [
     '"O Brasileiro tem que ser estrupado pela nasa" <br> - Bart Simpsom',
     '"Pra ser meu braço direito tem que bater pra mim" <br> - Poderoso Chefão',
     '"Tem que ver com os cara lá..." <br> - Nelson Mandela',
+    '"O Tolo reclama do bolso furado, <br> já o sábio usa-o para coçar o saco" <br> - Mao Zedong',
 ];
 
 const backgrounds = {
@@ -32,6 +33,7 @@ const backgrounds = {
     [quotes[12]]: 'url(https://pbs.twimg.com/media/GtRqpIjX0AAFDrt.jpg)',
     [quotes[13]]: 'url(https://cdn.britannica.com/55/188355-050-D5E49258/Salvatore-Corsitto-The-Godfather-Marlon-Brando-Francis.jpg)',
     [quotes[14]]: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZnJmUkD2xLcPMLRmkgF6WBhd36KXyLij0Q&s)',
+    [quotes[15]]: 'url(https://steveandjonbest.wordpress.com/wp-content/uploads/2014/12/wise-chinese-man.jpg)',
 };
 
 let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
