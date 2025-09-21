@@ -4,5 +4,6 @@
 ## Current projects list 📋
 - Login Page
 - Click Counter
-- Random Quote Generator <br>
+- Random Quote Generator
+- Fahrenheit to Celcius Converter <br>
 ### More Coming Soon!
