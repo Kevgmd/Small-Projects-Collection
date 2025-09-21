@@ -1,5 +1,5 @@
 # Small-Projects-Collection ✨
-> Here's a collection of really small projects and experiments that aren't big enough to have a repo just for them, but some are bigger than others actually.
+> Here's a collection of really small projects and experiments that aren't big enough to have a repo just for them, but some are bigger than others though.
 
 ## Current projects list 📋
 - Login Page
