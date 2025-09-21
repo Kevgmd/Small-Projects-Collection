@@ -1,0 +1,25 @@
+* {
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+input {
+    height: 60px;
+    width: 200px;
+    font-size: xx-large;
+}
+
+button {
+    height: 60px;
+    width: 130px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 50px;
+}
