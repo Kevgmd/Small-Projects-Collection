@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     overflow-y: hidden;
 }
 
@@ -6,14 +7,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
+    background-image: url(https://images.pexels.com/photos/3875821/pexels-photo-3875821.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input {
     height: 60px;
     width: 200px;
     font-size: xx-large;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 button {
@@ -21,5 +27,43 @@ button {
     width: 130px;
     margin-top: 20px;
     border: 0;
-    border-radius: 50px;
+    border-radius: 5px;
+}
+
+#converter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 25%);
+    border-radius: 10px;
+    padding: 80px;
+    max-height: 270px;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    color: white;
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: x-large;
+    margin-top: 20px;
 }
