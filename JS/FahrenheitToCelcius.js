@@ -11,7 +11,7 @@ function convert() {
         finalValueDisplay.style.opacity = '0';
     } else {
         let celciusOutput = (inputValue - 32) * 5 / 9;
-        finalValueDisplay.textContent = celciusOutput.toFixed(2) + '°C';
+        finalValueDisplay.textContent = celciusOutput.toFixed(1) + '°C';
         insertMessage.style.visibility = 'hidden';
         insertMessage.style.opacity = '0';
         finalValueDisplay.style.visibility = 'visible';

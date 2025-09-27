@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(https://images.pexels.com/photos/3875821/pexels-photo-3875821.jpeg);
+    background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,7 +56,7 @@ button:hover {
     flex-direction: column;
     background-color: rgba(255, 255, 255, 25%);
     border-radius: 10px;
-    padding: 60px;
+    padding: 45px;
 }
 
 
@@ -69,12 +69,12 @@ h1 {
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #6b6b6b;
+    background-color: #86868660;
     color: white;
     font-weight: normal;
     font-size: xx-large;
     margin-top: 20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     visibility: hidden;
     opacity: 0;
