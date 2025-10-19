@@ -60,3 +60,7 @@
         height: 2rem;
         width: 15rem;
     }
+
+    input {
+        font-size: large;
+    }
